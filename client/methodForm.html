@@ -1,0 +1,18 @@
+<template name="methodForm">
+    <h2 class="ui header">
+        <i class="settings icon"></i>
+        <div class="content">
+            autoform demo
+            <div class="sub header">Add a Book</div>
+        </div>
+    </h2>
+
+    {{> quickForm collection="Books"
+    id="methodForm"
+    type="method"
+    meteormethod="insertBook"
+    omitFields=""
+    buttonContent="Add a Book"
+    }}
+
+</template>

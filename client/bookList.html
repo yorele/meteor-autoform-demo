@@ -1,0 +1,22 @@
+<template name="bookList">
+    <div class="ui items">
+        {{#each book}}
+            <div class="ui item">
+                <div class="item">
+                    <div class="content">
+                        <a class="header">{{title}}</a>
+                        <div class="meta">
+                            <span class="cinema">{{author}}</span>
+                        </div>
+                        <div class="description">
+                            <p>Number of copies on hand: {{copies}}</p>
+                        </div>
+                        <div class="extra">
+                            <p>summary: {{summary}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</template>
