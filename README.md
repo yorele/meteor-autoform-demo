@@ -22,6 +22,8 @@ meteor add aldeed:simple-schema
 
 ### collection2
 
+- github: https://github.com/aldeed/meteor-collection2
+
 `collection2` is another required package to attach a schema to a Mongo collection for auto-validation on client and server side.
 
 ```bash
@@ -39,23 +41,20 @@ meteor add semantic:ui
 meteor add semantic:ui-css
 ```
 
+### My favorite debug tool: meteor toys
+
+```bash
+ meteor add meteortoys:allthings
+```
+
+DISCLAIMER: don't publish your code 'as-is' (dev mode): deploy! 
+Meteor Toys will be removed if you deploy your app. Otherwise it won't and anything goes.
+
 ## Step 1
 
-remove autopublish
+create a form
 
-## Step 2
 
-create a Collection
 
-## Step 3
-
-create a Schema
-
-## Step 4
-
-attach the schema to the Collection
-
-## Step 5 
-
-create the form template
-
+## remove autopublish
+## remove insecure
